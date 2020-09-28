@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(26, 26, 85);
+}
+
+form{
+    background-color: rgb(190, 187, 179);
+    height: calc(100% - 50px);
+    font-size: 18px;
+    width: 1000px;
+}

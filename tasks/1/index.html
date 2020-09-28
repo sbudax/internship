@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>CyberSec Clinique</title>
+    </head>
+<body>
+    
+
+    <p align="center">
+        <a href="https://github.com/cybersec-clinique/internship">
+          <img src="assets/img/logo-black.png" alt="Logo" height="80">
+        </a>
+        <h3 align="center">Developer Internship Tasks</h3>
+    </p>
+
+    <div class="menu">
+        <div class="menu-header">
+            <h3>Skin Care</h3>
+        <div class="menu-content">
+            <a type="text" onclick="myfunction()" id="1" value="fisrt value">Moisture</a>
+            <a type="text" onclick="myfunction1()" id="2" value="second value">Healthy Diet</a>
+            <a type="text" onclick="myfunction2()" id="3" value="third value">Make-up</a>
+        </div>
+        </div>
+    </div>
+
+    <div class="container" align="center">
+        <h1>Description</h1>
+        <div class="content">
+            <p type="text" id="content-out"></p>
+        </div>
+    </div>  
+</body>
+<script>
+    function myfunction(){
+        document.getElementById("content-out").innerHTML = "'The best times to moisturize are right after you get out of the shower and right before you go to bed', explained Dr. Janet Prystowsky M.D., an NYC-based dermatologist. Avoid lotions with heavy fragrances and make sure you find a moisturizer gentle enough for every day use with zero irritation.";
+    }
+
+    function myfunction1(){
+        document.getElementById("content-out").innerHTML = "'Your skin has a natural barrier to retain moisture, and essential to that is omega-3 fatty acid, Joanna advises. 'Flax seeds on your salad or even walnuts will be an instant boost to your omega-3, thus increasing your skin's ability to hold onto moisture.'' And be sure to eat a diet low in foods with a high glycemic index (simple and complex carbohydrates).";
+    }
+
+    function myfunction2(){
+        document.getElementById("content-out").innerHTML = "To fight infection and clogged pores, Dr. Prystowsky recommends washing concealer and foundation brushes once a week. For brushes you use around your eyes, she recommends twice per month, and for any other brushes, once a month is fine.Here's how: Put a drop of a mild shampoo into the palm of your hand. Wet the bristles with lukewarm water. Then, massage the bristles into your palm to distribute the shampoo into the brush. Avoid getting the metal part of the brush wet/or the base of the brush hairs because the glue could soften and the bristles could fall out. Rinse the shampoo out and squeeze out the water with a towel. Lay the brushes on their side with the bristles hanging off the edge of the counter to dry.";
+    }
+</script>
+</html>

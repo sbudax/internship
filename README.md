@@ -10,6 +10,15 @@
   </p>
 </p>
 
+
+
+## Candidate Details
+
+Name : Sbusiso Xaba
+Email: Sbusisoxaba92@gmail.com
+
+
+
 ## Table of Contents
 
 * [Getting Started](#getting-started)
